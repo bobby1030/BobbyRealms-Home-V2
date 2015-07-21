@@ -3648,6 +3648,7 @@ body.is-touch #banner {
         z-index: 10001;
         background: #272833;
         box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+        display: none
     }
     #titleBar .title {
         color: #ffffff;

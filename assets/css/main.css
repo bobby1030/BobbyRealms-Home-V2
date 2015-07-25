@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 /*
@@ -51,7 +52,6 @@ tt,
 var,
 b,
 u,
-i,
 center,
 dl,
 dt,
@@ -3851,5 +3851,9 @@ body.is-touch #banner {
         display: block;
         margin: 0;
         padding: 0;
+    }
+    i {
+        text-align: center;
+        padding-top: 50%;
     }
 }

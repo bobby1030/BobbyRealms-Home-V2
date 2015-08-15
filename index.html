@@ -128,13 +128,13 @@
                                 <section class="4u$ 6u(medium) 12u$(xsmall)">
                                     <span class="icon alt major"><i style="font-size: 20px" class="devicon-javascript-plain"> JS</i></span>
                                     <div class="progress">
-                                        <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="40"></div>
+                                        <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="75"></div>
                                     </div>
                                 </section>
                                 <section class="4u 6u$(medium) 12u$(xsmall)">
                                     <span class="icon alt major"><i style="font-size: 20px" class="devicon-python-plain"> Python</i></span>
                                     <div class="progress">
-                                        <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="60"></div>
+                                        <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="70"></div>
                                     </div>
                                 </section>
                                 <section class="4u 6u(medium) 12u$(xsmall)">
@@ -144,7 +144,7 @@
                                     </div>
                                 </section>
                                 <section class="4u$ 6u$(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-photoshop-plain"> PS</i></span>
+                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-photoshop-plain"> Ps&amp;Lr</i></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="60"></div>
                                     </div>
@@ -206,12 +206,10 @@
         var scroll_pos_test = element_position;
 
         if (y_scroll_pos + 500 > scroll_pos_test) {
-            $('.progress .progress-bar').progressbar();
-            $(document).ready(function() {
-                $('.progress .progress-bar').progressbar({
-                    display_text: 'fill'
-                });
+            $('.progress .progress-bar').progressbar({
+                display_text: 'fill'
             });
+
         }
     });
     </script>

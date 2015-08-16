@@ -33,6 +33,10 @@
         transition: width 2s ease-in-out;
     }
     
+    .cc-icon {
+        width: 18px;
+    }
+    
     #titleBar {
         display: none;
     }
@@ -48,9 +52,9 @@
                     <div class="content">
                         <header>
                             <h2>BobbyHo</h2>
-                            <p>A Programmer From Taiwan.</p>
+                            <p>Code Wisely. No Bullshit.</p>
                         </header>
-                        <span class="image"><img src="images/avatar.png" alt="" /></span>
+                        <span class="image"><img src="images/avatar.png"></span>
                     </div>
                 </section>
             </div>
@@ -93,9 +97,9 @@
                             <p>Softwate Development, Electronic,
                                 <br>Science and Technology</p>
                         </header>
-                        <p>I'm interesting in software development and web page design.
+                        <p>I'm interested in software development and web page design.
                             <br>I also localize open source project into Chinese.</p>
-                        <p>Click "Learn More" button to know the projects i have contributed.
+                        <p>Click "Learn More" to know the projects i have contributed.
                             <ul class="actions">
                                 <li><a href="http://blog.bobbyrealms.info/project/" target="_blank" class="button">Learn More</a></li>
                             </ul>
@@ -108,43 +112,42 @@
                 <section id="four" class="wrapper style1 special fade-up">
                     <div class="container">
                         <header class="major">
-                            <h2>WHAT CAN I DO</h2>
-                            <p>A List Of My Skills</p>
+                            <h2>MY SKILLS</h2>
                         </header>
                         <div class="box alt container">
                             <div class="row-original uniform">
                                 <section class="4u 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-html5-plain"> HTML5</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-html5-plain"> HTML5</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="80"></div>
                                     </div>
                                 </section>
                                 <section class="4u 6u$(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-css3-plain"> CSS3</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-css3-plain"> CSS3</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="80"></div>
                                     </div>
                                 </section>
                                 <section class="4u$ 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-javascript-plain"> JS</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-javascript-plain"> JS</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="75"></div>
                                     </div>
                                 </section>
                                 <section class="4u 6u$(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-python-plain"> Python</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-python-plain"> Python</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="70"></div>
                                     </div>
                                 </section>
                                 <section class="4u 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-php-plain"> PHP</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-php-plain"> PHP</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="20"></div>
                                     </div>
                                 </section>
                                 <section class="4u$ 6u$(medium) 12u$(xsmall)">
-                                    <span class="icon alt major"><i style="font-size: 20px" class="devicon-photoshop-plain"> Ps&amp;Lr</i></span>
+                                    <span class="icon alt major"><span style="font-size: 20px" class="devicon-photoshop-plain"> Ps&amp;Lr</span></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-ease" role="progressbar" data-transitiongoal="60"></div>
                                     </div>
@@ -184,6 +187,7 @@
                         &copy;&nbsp;2015 BobbyHo
                     </li>
                     <li>Template: <a href="http://html5up.net/landed">Landed</a> By <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>HTML5 UP Licensed: <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a></li>
                 </ul>
             </footer>
         </div>
@@ -198,6 +202,7 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    <!-- Progress Bar Animation Scripts -->
     <script type="text/javascript">
     var element_position = $('#four').offset().top;
 
@@ -205,7 +210,7 @@
         var y_scroll_pos = window.pageYOffset;
         var scroll_pos_test = element_position;
 
-        if (y_scroll_pos + 500 > scroll_pos_test) {
+        if (y_scroll_pos + 175 > scroll_pos_test) {
             $('.progress .progress-bar').progressbar({
                 display_text: 'fill'
             });
